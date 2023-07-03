@@ -24,7 +24,6 @@ function memes_post_type() {
         'rewrite'   => array( 'slug' => 'my-home-memes' ),
             'menu_position' => 5,
         'menu_icon' => 'dashicons-food',
-        // 'taxonomies' => array('cuisines', 'post_tag') // this is IMPORTANT
         )
     );
 }
